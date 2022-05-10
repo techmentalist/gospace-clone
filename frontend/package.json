@@ -1,0 +1,38 @@
+{
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+	"ngrok": "ngrok http 3000"
+    },
+    "dependencies": {
+        "@dicebear/avatars": "^4.7.4",
+        "@dicebear/avatars-initials-sprites": "^4.7.4",
+        "@svgr/webpack": "^5.5.0",
+        "catenary-curve": "^1.0.1",
+        "daisyui": "^1.14.0",
+        "lazy-brush": "^1.0.1",
+        "lz-string": "^1.4.4",
+        "mediasoup-client": "^3.6.37",
+        "nanoid": "^3.1.29",
+        "next": "^11.1.0",
+        "prop-types": "^15.7.2",
+        "react": "17.0.2",
+        "react-color": "^2.19.3",
+        "react-dom": "17.0.2",
+        "rect-scaler": "^1.0.0",
+        "resize-observer-polyfill": "^1.5.1",
+        "socket.io-client": "^4.1.3"
+    },
+    "devDependencies": {
+        "@types/react": "17.0.17",
+        "autoprefixer": "^10.3.1",
+        "ngrok": "^4.3.1",
+        "postcss": "^8.3.6",
+        "tailwindcss": "^2.2.7",
+        "typescript": "4.3.5"
+    }
+}
